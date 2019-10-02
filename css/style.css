@@ -1,5 +1,5 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FFE6D2;
 	color: #333;
 }
 
@@ -8,41 +8,42 @@ a {
 	color: #333;
 }
 
-a:hover { color: Tomato; }
+a:hover { color: Salmon; }
 
 header, nav, main, footer {
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
-	min-height: 100px;
-	margin-top: 60px;
+	background-color: #FFE6D2;
+	color: LightOrange;
+	min-height: 10px;
+	margin-top: 10px;
 }
 
 header h1 {
-	padding: 40px 60px;
+	padding: 80px 100px;
+	font-family: 'Abril Fatface', cursive;
 }
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: #FFE6D2; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
+nav a { color: Black; }
 nav a:hover { color: white; }
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color: #FFE6D2;
 	display: grid;
 	grid-template-columns: 60% 40%;
 }
@@ -65,8 +66,8 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
-	color: white;
+	background-color: #FFE6D2;
+	color: Lightorange;
 	text-align: center;
  }
  footer p { padding: 20px; }
