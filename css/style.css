@@ -1,5 +1,5 @@
 body {
-	background: #FFE6D2;
+	background: white;
 	color: #333;
 }
 
@@ -8,18 +8,25 @@ a {
 	color: #333;
 }
 
-a:hover { color: Salmon; }
+a:hover { color: White; }
 
-header, nav, main, footer {
+header, button,footer {
 	width: 60%;
 	margin: auto;
-}
+	text-align: center;
 
+}
+ul{
+	text-align: center;
+}
+button{
+	text-align: center;
+}
 
 /* Header styles */
 header { 
-	background-color: #FFE6D2;
-	color: LightOrange;
+	background-color: orange;
+	color: black;
 	min-height: 10px;
 	margin-top: 10px;
 }
@@ -27,47 +34,31 @@ header {
 header h1 {
 	padding: 80px 100px;
 	font-family: 'Abril Fatface', cursive;
+text-align: center }
+
 }
 
 
 /* Nav styles */
-nav { background-color: #FFE6D2; }
+nav { background-color: white; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
+	list-style-type: none;
+	
 }
-nav li { padding: 10px 10px; }
+nav li { padding: 70px 90px; }
 nav a { color: Black; }
-nav a:hover { color: white; }
+nav a:hover { color: lightOrange; }
 
 
-/* Main styles */
-main { 
-	background-color: #FFE6D2;
-	display: grid;
-	grid-template-columns: 60% 40%;
-}
-
-section {
-	padding: 40px 60px;
-}
-
-section ul, aside ul {
-	list-style-type: square;
-	margin-top: 20px; 
-	margin-left: 30px;
-}
-
-aside {
-	padding: 40px 10px;
-}
 
 
 
 /* Footer styles */
 footer { 
-	background-color: #FFE6D2;
-	color: Lightorange;
+	background-color: white;
+	color: black;
 	text-align: center;
  }
  footer p { padding: 20px; }
