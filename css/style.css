@@ -1,64 +1,270 @@
-body {
-	background: white;
-	color: #333;
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom:20px
+  padding: 0;
+  overflow: hidden;
+  background-color: #573a4d;
+  font-family: 'Questrial', sans-serif;
 }
 
-a {
-	text-decoration: none;
-	color: #333;
+
+li.icon img {width: 25px;
+position: left;}
+
+li {
+  float: left;
 }
 
-a:hover { color: White; }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
 
-header, button,footer {
-	width: 60%;
-	margin: auto;
+
+}
+h2 {
+	display: inline-block;
+	font-size: 80px;
+ 	font-family: 'Questrial', sans-serif;
+	color: white;
 	text-align: center;
-
-}
-ul{
-	text-align: center;
-}
-button{
-	text-align: center;
-}
-
-/* Header styles */
-header { 
-	background-color: orange;
-	color: black;
-	min-height: 10px;
-	margin-top: 10px;
-}
-
-header h1 {
-	padding: 80px 100px;
-	font-family: 'Abril Fatface', cursive;
-text-align: center }
-
-}
-
-
-/* Nav styles */
-nav { background-color: white; }
-nav ul { 
-	display: flex;
-	justify-content: flex-end;
-	list-style-type: none;
 	
 }
-nav li { padding: 70px 90px; }
-nav a { color: Black; }
-nav a:hover { color: lightOrange; }
+p 	{
+	display: block;
+	font-size: 13px;
+ 	font-family: 'Questrial', sans-serif;
+	color: #FF1947;
+	text-align: left;
+
+}
+   
 
 
+.home .head {
+  background-image: url(../images/bb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
 
 
-
-/* Footer styles */
-footer { 
+.home .head h2 {
+	padding-top: 200px;
+}
+.comingsoon {
+	background-image: url(../images/swedenstreet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.comingsoon2 {
+	background-image: url(../images/fika.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.stockholm {
+	background-image: url(../images/bgswe.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.gothenburg {
+	background-image: url(../images/bb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.malmo {
+	background-image: url(../images/malmo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.uppsala {
+	background-image: url(../images/uppsala.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.comingsoon .head div {
+	display: inline-block;
+	width: 600px;
 	background-color: white;
+	padding: 30px;
+	margin: 0;
+	margin-top: 200px;
+}
+.comingsoon2 .head div {
+	display: inline-block;
+	width: 600px;
+	background-color: white;
+	padding: 30px;
+	margin: 0;
+	margin-top: 200px;
+}
+.stockholm .head div {
+	display: inline-block;
+	width: 600px;
+	background-color: white;
+	padding: 30px;
+	margin: 0;
+}
+
+.stockholm .head .stock {
+	margin-top: 200px;
+
+}
+.gothenburg .head div {display: inline-block;
+	width: 600px;
+	background-color: white;
+	padding: 30px;
+	margin: 0;
+	margin-top: 200px;
+}
+.malmo .head div {display: inline-block;
+	width: 600px;
+	background-color: white;
+	padding: 30px;
+	margin: 0;
+	margin-top: 200px;
+}
+.uppsala .head div {display: inline-block;
+	width: 600px;
+	background-color: white;
+	padding: 30px;
+	margin: 0;
+	margin-top: 200px;
+}
+.comingsoon .head p {
+	margin: 30px;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 0.1px;
+	line-height: 1.7;
+}
+.comingsoon2 .head p {
+	margin: 30px;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 0.1px;
+	line-height: 1.7;
+}
+.stockholm .head p {
+	margin: 30px;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 0.1px;
+	line-height: 1.7;
+}
+.gothenburg .head p {
+	margin: 30px;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 0.1px;
+	line-height: 1.7;
+}
+.malmo .head p {
+	margin: 30px;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 0.1px;
+	line-height: 1.7;
+}
+.uppsala .head p {
+	margin: 30px;
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 0.1px;
+	line-height: 1.7;
+}
+.container {position: relative;
+text-align: center;
+}
+.head {
+width: 100%;
+}
+
+ .main {font-family: 'Arial Rounded MT', sans-serif;
+ color:#FF1947;
+
+}
+
+
+
+/*---------------------------------------------------*/
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container2 {
+position: relative;
+display: inline-block;
+margin:0px;
+width: 500px !important;
+}
+
+/* input */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  font-family: 'Arial Rounded MT', sans-serif;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+  font-family: 'Arial Rounded MT', sans-serif;
+}
+
+/* hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* submit/register button */
+.registerbtn {
+  background-color: #FF1947;
+  color: white;
+  padding: 16px 20px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-family: 'Arial Rounded MT', sans-serif;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* link */
+a {
+  color: dodgerblue;
+}
+
+/*"sign in" section */
+.signin {
+  text-align: center;
+  font-family: 'Arial Rounded MT', sans-serif;
+}
+
+b 	{
+	font-size: 13px;
+ 	font-family: 'Arial Rounded MT', sans-serif;
 	color: black;
 	text-align: center;
- }
- footer p { padding: 20px; }
+
+}
