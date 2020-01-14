@@ -32,6 +32,6 @@ function createParagraph() {
 
     // reset the color after a short delay
     setTimeout(function() {
-      event.target.style.color = "";
+      event.target.style.color = "green";
     }, 500);
   }, false);
