@@ -34,6 +34,14 @@ h2 {
 	text-align: center;
 	
 }
+h3 {
+	display: inline-block;
+	font-size: 80px;
+ 	font-family: 'Questrial', sans-serif;
+	color: black;
+	text-align: center;
+	
+}
 p 	{
 	display: block;
 	font-size: 13px;
